@@ -1,0 +1,47 @@
+﻿<Window x:Class="_18.Edit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_18"
+        mc:Ignorable="d"
+        Title="Edit" Height="421.642" Width="440.553" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox x:Name="TextNumber" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextSurname" HorizontalAlignment="Left" Height="23" Margin="10,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextName" HorizontalAlignment="Left" Height="23" Margin="10,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextPatronymic" HorizontalAlignment="Left" Height="23" Margin="10,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextYearOfBirth" HorizontalAlignment="Left" Height="23" Margin="10,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextSurnameTrainer" HorizontalAlignment="Left" Height="23" Margin="152,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextNameTrainer" HorizontalAlignment="Left" Height="23" Margin="152,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextPatronymicTrainer" HorizontalAlignment="Left" Height="23" Margin="152,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextCountry" HorizontalAlignment="Left" Height="23" Margin="152,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextRating1" HorizontalAlignment="Left" Height="23" Margin="152,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextRating2" HorizontalAlignment="Left" Height="23" Margin="152,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextRating3" HorizontalAlignment="Left" Height="23" Margin="294,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextRating4" HorizontalAlignment="Left" Height="23" Margin="294,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextRating5" HorizontalAlignment="Left" Height="23" Margin="294,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="CBGender" HorizontalAlignment="Left" Margin="10,237,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem>Муж</ComboBoxItem>
+            <ComboBoxItem>Жен</ComboBoxItem>
+        </ComboBox>
+        <Label Content="Номер" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Отчество" HorizontalAlignment="Left" Margin="10,164,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Пол" HorizontalAlignment="Left" Margin="10,212,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Год рождения" HorizontalAlignment="Left" Margin="10,259,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Фамилия тренера" HorizontalAlignment="Left" Margin="152,13,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Имя Тренера" HorizontalAlignment="Left" Margin="152,64,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Отчество Тренера" HorizontalAlignment="Left" Margin="152,113,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Страна" HorizontalAlignment="Left" Margin="152,162,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Рейтинг за 1 год" HorizontalAlignment="Left" Margin="152,211,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Рейтинг за 2 год" HorizontalAlignment="Left" Margin="152,260,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Рейтинг за 4 год" HorizontalAlignment="Left" Margin="294,64,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Рейтинг за 5 год" HorizontalAlignment="Left" Margin="294,113,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Рейтинг за 3 год" HorizontalAlignment="Left" Margin="294,15,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="EditForm" IsDefault="True" Content="Редактировать" HorizontalAlignment="Left" Margin="10,340,0,0" VerticalAlignment="Top" Width="120" Height="29" Click="AddForm_Click"/>
+        <Button x:Name="Cancel" Content="Отмена" HorizontalAlignment="Left" Margin="152,340,0,0" VerticalAlignment="Top" Width="120" Height="29" Click="Cancel_Click"/>
+
+    </Grid>
+</Window>
