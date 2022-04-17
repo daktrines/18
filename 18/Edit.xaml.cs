@@ -34,7 +34,7 @@ namespace _18
             Close();
         }
 
-        private void AddForm_Click(object sender, RoutedEventArgs e)
+        private void EditForm_Click(object sender, RoutedEventArgs e)
         {
             //Проверка каждого обязательного для заполнения поля
             StringBuilder errors = new StringBuilder();

@@ -40,7 +40,7 @@
         <Label Content="Рейтинг за 4 год" HorizontalAlignment="Left" Margin="294,64,0,0" VerticalAlignment="Top" Width="120"/>
         <Label Content="Рейтинг за 5 год" HorizontalAlignment="Left" Margin="294,113,0,0" VerticalAlignment="Top" Width="120"/>
         <Label Content="Рейтинг за 3 год" HorizontalAlignment="Left" Margin="294,15,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="EditForm" IsDefault="True" Content="Редактировать" HorizontalAlignment="Left" Margin="10,340,0,0" VerticalAlignment="Top" Width="120" Height="29" Click="AddForm_Click"/>
+        <Button x:Name="EditForm" IsDefault="True" Content="Редактировать" HorizontalAlignment="Left" Margin="10,340,0,0" VerticalAlignment="Top" Width="120" Height="29" Click="EditForm_Click"/>
         <Button x:Name="Cancel" Content="Отмена" HorizontalAlignment="Left" Margin="152,340,0,0" VerticalAlignment="Top" Width="120" Height="29" Click="Cancel_Click"/>
 
     </Grid>
