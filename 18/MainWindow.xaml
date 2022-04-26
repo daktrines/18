@@ -66,7 +66,7 @@
                 <Button x:Name="Edit" Content="Редактировать запись" HorizontalAlignment="Left" Margin="10,21,0,0" VerticalAlignment="Top" Width="154" Height="43" Click="Edit_Click"/>
             </Grid>
         </GroupBox>
-        <GroupBox Header="Редактирование записи" HorizontalAlignment="Left" Height="104" Margin="392,323,0,0" VerticalAlignment="Top" Width="186">
+        <GroupBox Header="Удаление записи" HorizontalAlignment="Left" Height="104" Margin="392,323,0,0" VerticalAlignment="Top" Width="186">
             <Grid >
                 <Button x:Name="Delete" Content="Удалить запись" HorizontalAlignment="Left" Margin="10,21,0,0" VerticalAlignment="Top" Width="154" Height="43" Click="Delete_Click"/>
             </Grid>

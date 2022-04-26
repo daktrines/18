@@ -23,7 +23,6 @@ namespace _18
         public Edit()
         {
             InitializeComponent();
-            TextNumber.Focus();
         }
         //Получаем доступ к контексту данных
         TennisEntities db = TennisEntities.GetContext();
